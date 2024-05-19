@@ -1,4 +1,4 @@
-🔴# Resolución de Problemas de Programación / S1 2024
+# Resolución de Problemas de Programación / S1 2024
 Repo de materia optativa de la LTD / Solución a ejercicios de CSES 
 ## Seguimiento de Ejercicios
 🔴 Pendiente / 🟠 Empecé pero lo pausé / 🟡 En proceso / 🟢 Hecho
