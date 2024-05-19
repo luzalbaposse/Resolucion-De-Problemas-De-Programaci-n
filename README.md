@@ -4,9 +4,8 @@ Repo de materia optativa de la LTD / Solución a ejercicios de CSES
 🔴 Pendiente / 🟠 Empecé pero lo pausé / 🟡 En proceso / 🟢 Hecho
 | Problema                      | Unidad               | Estado    | Anotaciones         |
 |-------------------------------|----------------------|-----------|---------------------|
-| Create new account            | Introduction         |   🟡      |                     |
-| Weird Algorithm               | Introductory Problems|   🔴      |                     |
-| Missing Number                | Introductory Problems|   🔴      |                     |
+| Weird Algorithm               | Introductory Problems|   🟢      |      1 trial               |
+| Missing Number                | Introductory Problems|   🟢      |    3 trials. 1st one I forgot to delete an unnecesary cout, the 2nd I upload the wrong file and the 3rd one was ok                  |
 | Repetitions                   | Introductory Problems|   🔴      |                     |
 | Increasing Array              | Introductory Problems|   🔴      |                     |
 | Permutations                  | Introductory Problems|   🔴      |                     |
