@@ -23,8 +23,6 @@ Table of Contents
   - [Búsqueda ternaria](#búsqueda-ternaria)
   - [Resolviendo problemas - Desafíos](#resolviendo-problemas---desafíos)
 
-====================
-
 # Overview de la materia
 ## Por qué practicar resolver problemas?
 - Practicar abstracción y modelado
