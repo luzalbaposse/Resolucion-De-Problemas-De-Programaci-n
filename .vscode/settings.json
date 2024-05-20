@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "ostream": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "__bit_reference": "cpp"
     }
 }
