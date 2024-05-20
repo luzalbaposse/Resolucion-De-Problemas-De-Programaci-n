@@ -6,7 +6,7 @@ Repo de materia optativa de la LTD / Solución a ejercicios de CSES
 |-------------------------------|----------------------|-----------|---------------------|
 | Weird Algorithm               | Introductory Problems|   🟢      |      1 trial               |
 | Missing Number                | Introductory Problems|   🟢      |    3 trials. 1st one I forgot to delete an unnecesary cout, the 2nd I uploaded the wrong file and the 3rd one was ok                  |
-| Repetitions                   | Introductory Problems|   🔴      |                     |
+| Repetitions                   | Introductory Problems|   🟢     |         1 trial            |
 | Increasing Array              | Introductory Problems|   🔴      |                     |
 | Permutations                  | Introductory Problems|   🔴      |                     |
 | Number Spiral                 | Introductory Problems|   🔴      |                     |
