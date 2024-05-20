@@ -26,9 +26,6 @@ Output:
 */
 #include <iostream>
 using namespace std;
-// #include <chrono>
-#include <iostream>
-using namespace std;
 
 void missing_number(int n) {
     int x;
