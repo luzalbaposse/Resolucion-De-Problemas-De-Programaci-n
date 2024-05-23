@@ -42,9 +42,3 @@ int main() {
     return 0;
 }
 
-/*Notas:
-    -> tengo una espiral q empieza en 1 y va incrementando como un reloj. Si me fijo, los ns en la diagonal son cuadrados perfectos. Entonces, si dado un (x,y) quiero saber el valor de ese n, puedo calcular la diagonal en la que se encuentra y sacar el valor del q me interesa. entonces:
-        - si la diagonal es par, n está en la diagonal superior o en la diagonal derecha.
-        - si la diagonal es impar, n está en la diagonal inferior o en la diagonal izquierda.
-*/
-
