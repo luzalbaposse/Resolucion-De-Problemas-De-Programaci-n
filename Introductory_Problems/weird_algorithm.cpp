@@ -23,10 +23,10 @@ Output:
 
 
 #include <iostream>
-using namespace std; 
+using namespace std;
+ 
 
 void weird_algorithm(long long n){
-    
     cout << n << " ";
     
     if ( n == 1){
@@ -44,9 +44,12 @@ void weird_algorithm(long long n){
     }
 }
 
-int main() {
+int main()
+{
     long long n;
-    cin >> n;
     weird_algorithm(n);
     return 0;
 }
+
+
+

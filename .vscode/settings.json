@@ -5,6 +5,7 @@
         "ostream": "cpp",
         "string": "cpp",
         "vector": "cpp",
-        "__bit_reference": "cpp"
+        "__bit_reference": "cpp",
+        "ios": "cpp"
     }
 }
