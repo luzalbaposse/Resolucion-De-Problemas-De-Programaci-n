@@ -1,37 +1,42 @@
 #include <iostream>
-#include <algorithm>
+#include <vector>
+#include <iomanip>
+
 using namespace std;
+
 typedef long long ll;
+typedef pair<ll,ll> ii;
 
-int main() {
-    ios_base::sync_with_stdio(false);
+int main() {  
+    // // #ifndef LOCAL
+    // freopen("tests/1.in", "r", stdin);
+    // freopen("1bis.out", "w", stdout);
+    // // #endif
+    ios::sync_with_stdio(0);
     cin.tie(0);
+    cout.tie(0);
 
-    int t;
+    ll t;
     cin >> t;
-    while (t--) {
+    
+  
+    for(ll _ = 0; _ < t; _++) { 
         ll y, x;
         cin >> y >> x;
-
-        ll n = max(y, x);
-        ll n2 = n * n;
-        ll result;
-
-        if (n % 2 == 0) {
-            if (y == n) {
-                result = n2 - (x - 1);
-            } else {
-                result = n2 - (2 * n - 1) + (y - 1);
-            }
-        } else {
-            if (x == n) {
-                result = n2 - (y - 1);
-            } else {
-                result = n2 - (2 * n - 1) + (x - 1);
-            }
+        ll tot = 0;
+        tot += (y < x) ? ((x - 1) * (x - 1)) : ((y - 1) * (y - 1));
+        
+        if (y <= x) {
+            if (x % 2 == 0) tot += y;
+            else tot += x * x - (x - 1) * (x - 1) + 1 - y;
         }
-
-        cout << result << '\n';
+        
+        if (x < y) {
+            if (y % 2 == 1) tot += x;
+            else tot += y * y - (y - 1) * (y - 1) + 1 - x;
+        }
+        
+        cout << tot << "\n";
     }
 
     return 0;

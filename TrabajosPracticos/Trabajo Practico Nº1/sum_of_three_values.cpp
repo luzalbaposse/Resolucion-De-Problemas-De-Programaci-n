@@ -1,40 +1,41 @@
 /* https://cses.fi/problemset/task/1641v
 */
-
 #include <iostream>
 #include <vector>
-#include <unordered_map>
+#include <algorithm>
+#include <tuple>
+
 using namespace std;
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    
     int n, x;
     cin >> n >> x;
-    vector<pair<int, int>> a(n);
-    
-    for (int i = 0; i < n; i++) {
-        cin >> a[i].first;
-        a[i].second = i + 1; // me quedo con el índice original
+    vector<pair<int, int>> arr(n);
+
+    for (int i = 0; i < n; ++i) {
+        cin >> arr[i].first;
+        arr[i].second = i + 1;// indice original
     }
-    
-    // busco
-    for (int i = 0; i < n; i++) {
-        unordered_map<int, int> hash_map;
-        for (int j = i + 1; j < n; j++) {
-            int remaining = x - a[i].first - a[j].first;
-            if (hash_map.find(remaining) != hash_map.end()) {
-                // wooo solucion!
-                cout << a[i].second << " " << a[j].second << " " << hash_map[remaining] << "\n";
+    sort(arr.begin(), arr.end());
+
+    for (int i = 0; i < n - 2; ++i) {
+        int left = i + 1;
+        int right = n - 1;
+
+        while (left < right) {
+            int current_sum = arr[i].first + arr[left].first + arr[right].first;
+
+            if (current_sum == x) {
+                cout << arr[i].second << " " << arr[left].second << " " << arr[right].second << endl;
                 return 0;
+            } else if (current_sum < x) {
+                ++left;
+            } else {
+                --right;
             }
-            // guardo el valor y el índice original
-            hash_map[a[j].first] = a[j].second;
         }
     }
-    
-    // woon't solucion't
-    cout << "IMPOSSIBLE\n";
+
+    cout << "IMPOSSIBLE" << endl;
     return 0;
 }
