@@ -9,7 +9,7 @@ Repo de materia optativa de la LTD / Solución a ejercicios de CSES
 | Repetitions                   | Introductory Problems|   🟢     |         1 trial            |
 | Increasing Array              | Introductory Problems|   🔴      |                     |
 | Permutations                  | Introductory Problems|   🔴      |                     |
-| Number Spiral                 | Introductory Problems|   🔴      |                     |
+| Number Spiral                 | Introductory Problems|   🟢      |       2 trials       |
 | Two Knights                   | Introductory Problems|   🔴      |                     |
 | Two Sets                      | Introductory Problems|   🔴      |                     |
 | Bit Strings                   | Introductory Problems|   🔴      |                     |
