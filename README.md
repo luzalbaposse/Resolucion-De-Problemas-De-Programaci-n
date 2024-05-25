@@ -46,7 +46,7 @@ Repo de materia optativa de la LTD / Solución a ejercicios de CSES
 | Factory Machines              | Sorting and Searching|  🔴       |                     |
 | Tasks and Deadlines           | Sorting and Searching|     🔴    |                     |
 | Reading Books                 | Sorting and Searching|  🔴       |                     |
-| Sum of Three Values           | Sorting and Searching|    🔴     |                     |
+| Sum of Three Values           | Sorting and Searching|    🟢     |     it took me a while to get my mind around this, but cool                |
 | Sum of Four Values            | Sorting and Searching|    🔴     |                     |
 | Nearest Smaller Values        | Sorting and Searching|     🔴    |                     |
 | Subarray Sums I               | Sorting and Searching|    🔴     |                     |
