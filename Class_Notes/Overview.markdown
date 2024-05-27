@@ -1,8 +1,8 @@
-# Clase 1: Overview y Programación Dinámica
+# Clase 1: Overview 
 Table of Contents
 =================
 
-- [Clase 1: Overview y Programación Dinámica](#clase-1-overview-y-programación-dinámica)
+- [Clase 1: Overview](#clase-1-overview)
 - [Table of Contents](#table-of-contents)
 - [Overview de la materia](#overview-de-la-materia)
   - [Por qué practicar resolver problemas?](#por-qué-practicar-resolver-problemas)
