@@ -73,7 +73,7 @@ Repo de materia optativa de la LTD / Solución a ejercicios de CSES
 | Removal Game                  | Dynamic Programming  |   🔴      |                     |
 | Two Sets II                   | Dynamic Programming  |     🔴    |                     |
 | Increasing Subsequence        | Dynamic Programming  |    🔴     |                     |
-| Projects                      | Dynamic Programming  |    🔴     |                     |
+| Projects                      | Dynamic Programming  |    🟢    |                     |
 | Elevator Rides                | Dynamic Programming  |     🔴    |                     |
 | Counting Tilings              | Dynamic Programming  |    🔴     |                     |
 | Counting Numbers              | Dynamic Programming  |    🔴     |                     |
@@ -117,10 +117,10 @@ Repo de materia optativa de la LTD / Solución a ejercicios de CSES
 | Static Range Minimum Queries  | Range Queries        |    🔴     |                     |
 | Dynamic Range Sum Queries     | Range Queries        |   🔴      |                     |
 | Dynamic Range Minimum Queries | Range Queries        |    🔴     |                     |
-| Range Xor Queries             | Range Queries        |     🔴    |                     |
+| Range Xor Queries             | Range Queries        |    🟢     |               tough      |
 | Range Update Queries          | Range Queries        |     🔴    |                     |
 | Forest Queries                | Range Queries        |     🔴    |                     |
-| Hotel Queries                 | Range Queries        |    🔴     |                     |
+| Hotel Queries                 | Range Queries        |    🟢      |       segmentation trees              |
 | List Removals                 | Range Queries        |   🔴      |                     |
 | Salary Queries                | Range Queries        |   🔴      |                     |
 | Prefix Sum Queries            | Range Queries        |   🔴      |                     |
